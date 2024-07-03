@@ -43,11 +43,9 @@
 
     <properties>
         <!-- The versions for the BOMs, Packs and Plugins -->
-        <version.bom.ee>8.0.2.GA-redhat-00007</version.bom.ee>
-        <version.bom.microprofile>5.0.0.GA-redhat-SNAPSHOT-00001</version.bom.microprofile>
-        <!-- The versions for BOMs, Dependencies and Plugins -->
-        <version.server.bom>8.0.0.GA-redhat-00009</version.server.bom>
-        <version.plugin.wildfly-jar>9.0.1.Final-redhat-00009</version.plugin.wildfly-jar>
+        <version.bom.ee>8.0.2.GA-redhat-00008</version.bom.ee>
+        <version.bom.microprofile>5.0.0.GA-redhat-00009</version.bom.microprofile>
+        <version.plugin.wildfly-jar>9.0.1.Final-redhat-00010</version.plugin.wildfly-jar>
     </properties>
 
     <dependencyManagement>
