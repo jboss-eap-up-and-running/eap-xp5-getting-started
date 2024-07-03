@@ -106,6 +106,7 @@
                     <plugin>
                         <groupId>org.wildfly.plugins</groupId>
                         <artifactId>wildfly-jar-maven-plugin</artifactId>
+                        <version>${version.plugin.wildfly-jar}</version>
                         <configuration>
                             <channels>
                                 <channel>
