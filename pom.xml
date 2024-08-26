@@ -132,8 +132,7 @@
                             <feature-pack-location>org.jboss.eap.xp:wildfly-galleon-pack</feature-pack-location>
                             <feature-pack-location>org.jboss.eap.xp.cloud:eap-xp-cloud-galleon-pack</feature-pack-location>
                             <layers>
-                                <layer>jaxrs-server</layer>
-                                <layer>microprofile-config</layer>
+                                <layer>cloud-server</layer>
                             </layers>
                         </configuration>
                         <executions>
