@@ -134,6 +134,7 @@
                             <layers>
                                 <layer>cloud-server</layer>
                             </layers>
+                            <cloud></cloud>
                         </configuration>
                         <executions>
                             <execution>
