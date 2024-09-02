@@ -98,6 +98,13 @@
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-source-plugin</artifactId>
+                        <configuration>
+                          <skipSource>true</skipSource>
+                        </configuration>
+                      </plugin>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-war-plugin</artifactId>
                         <configuration>
                             <warName>ROOT</warName>
@@ -125,9 +132,9 @@
                             <feature-pack-location>org.jboss.eap.xp:wildfly-galleon-pack</feature-pack-location>
                             <feature-pack-location>org.jboss.eap.xp.cloud:eap-xp-cloud-galleon-pack</feature-pack-location>
                             <layers>
-                                <layer>jaxrs-server</layer>
-                                <layer>microprofile-config</layer>
+                                <layer>cloud-server</layer>
                             </layers>
+                            <cloud></cloud>
                         </configuration>
                         <executions>
                             <execution>
